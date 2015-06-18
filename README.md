@@ -25,3 +25,12 @@ These directories may be listed by:
 
 echo $MANPATH
 ```
+
+A simple Makefile is included to aid this build and install process.
+
+```bash
+make
+
+## PREFIX defaults to /usr/local and the binary will be in /usr/local/bin
+make install PREFIX=/software/install/target
+```
